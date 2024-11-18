@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodyy">
+    <div id="navBarr" > 
+        <div class="hading">
+            <h1>Where in the World?</h1>
+       </div>
+       <div class="darkmode" onclick="dark()">
+        <img class="iconImg"  src="https://cdn-icons-png.flaticon.com/512/4623/4623236.png">
+             <span>Dark Mode</span>
+       </div>
+    </div>
+
+<div class="searchSec"> 
+    <div class="search">
+        <input type="text" id="input1" class="Inputts" placeholder=" Enter country" oninput="SortCUN()" >
+    
+    <div class="list">
+        <ul id="ul1">
+            
+        </ul>
+    </div>
+</div>
+
+<div>
+        <!-- <h3>Filter By Region <img class="iconImg"   src="https://cdn-icons-png.flaticon.com/512/32/32195.png"></h3> -->
+    <select class="ByRegion" id="ByRegion" onchange="region()">
+        <option value="all">ALL Region</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Africa">Africa</option>
+        <option value="Oceania">Oceania</option>
+    </select>
+    </div>
+
+</div>
+
+<div class="contaner">
+
+</div>
+
+<div class="addbutt">
+<!-- <button onclick="addMore()" class="Sbutton  ">Add More</button> -->
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
